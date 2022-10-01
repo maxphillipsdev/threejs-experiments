@@ -7,7 +7,7 @@ import Tab from "../components/Tab";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <div className={`flex h-screen flex-col  bg-black text-white`}>
+    <div className={`flex h-screen flex-col text-white`}>
       <Head>
         <title>Three.js Experiments</title>
         <meta
@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <Header />
 
-      <main className="grid h-screen place-content-center">
+      <main className="flex h-full items-center justify-center">
         <Component {...pageProps} />
       </main>
       <Footer />
