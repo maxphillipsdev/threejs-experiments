@@ -7,7 +7,10 @@ import Tab from "../components/Tab";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <div className={`flex h-screen flex-col text-white`}>
+    <div
+      className={`flex h-screen flex-col text-white
+      selection:bg-[#DB7093] selection:text-black`}
+    >
       <Head>
         <title>Three.js Experiments</title>
         <meta
