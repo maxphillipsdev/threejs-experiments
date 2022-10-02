@@ -7,6 +7,7 @@ const Header = () => {
         <Tab text="Home" href="/" />
         <Tab text="Blob" href="/experiments/blob" />
         <Tab text="Rolling" href="/experiments/rolling" />
+        <Tab text="Cool Box" href="/experiments/cool-box" />
       </nav>
     </header>
   );
